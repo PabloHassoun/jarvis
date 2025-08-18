@@ -1,16 +1,16 @@
 # ADR 0001 – Structure monorepo et composants
+
 Date: 2025-08-18
 Status: Proposed
 
 ## Contexte
-Besoin d'un squelette clair pour apps iOS/macOS, backend, RAG, infra, docs.
+
+On démarre un projet avec app macOS/iOS, backend local et RAG.
 
 ## Décision
-Adopter monorepo avec dossiers `apps/`, `backend/`, `rag/`, `infra/`, `docs/`.
-Conventions de branches et de commits (Conventional Commits).
-CI minimale (lint) puis tests à venir.
+
+On utilise un monorepo avec les dossiers apps/, backend/, rag/, infra/, docs/.
 
 ## Conséquences
-+ Visibilité globale
-+ Outillage CI partagé
-- Couplage initial plus fort
+
+- visibilité globale, + outils partagés ; − un peu plus de couplage.

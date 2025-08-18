@@ -15,9 +15,9 @@ Ce dépôt contient le **squelette initial** et les **outils de base** pour dém
 ## Pré-requis
 - Git ≥ 2.40
 - macOS (Xcode pour iOS/macOS) et/ou Linux
-- Python ≥ 3.11 + `pipx` (ou `uv`)  
-- Node.js ≥ 20 + `pnpm`  
-- Docker Desktop (ou Docker Engine)  
+- Python ≥ 3.11 + `pipx` (ou `uv`)
+- Node.js ≥ 20 + `pnpm`
+- Docker Desktop (ou Docker Engine)
 - `direnv` (fortement conseillé)
 - `pre-commit` (installé globalement via `pipx install pre-commit`)
 - Optionnel sécurité : `sops` + `age` ou `1Password CLI` (`op`)
